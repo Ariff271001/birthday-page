@@ -40,12 +40,12 @@ body {
     align-items: center;
 }
 
-#gift-img1:active {
+#gift-img1.animated{
     background: url("./images/whale.webp");
     background-size: cover;
 }
 
-#gift-img2:active {
+#gift-img2.animated{
     background: url("./images/friends.webp");
     background-size: cover;
 }
