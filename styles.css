@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background: url("./images/fish.webp");
+    background-size: cover;
+    font-family: "Spinnaker", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#title-gift {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.title-text {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px grey;
+    margin: 10px;
+}
+
+.gift-img {
+    background: url("./images/gift-cover.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+}
+
+#gifts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gift-img1:hover {
+    background: url("./images/whale.webp");
+    background-size: cover;
+}
+
+#gift-img2:hover {
+    background: url("./images/friends.webp");
+    background-size: cover;
+}
+
+.gift-text {
+    margin: 5px 0px;
+    text-shadow: 0 0 5px black;
+    color: whitesmoke;
+}
